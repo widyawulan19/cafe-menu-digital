@@ -1,0 +1,255 @@
+.welcome-container {
+    width: 100%;
+    height: 100%;
+    /* border: 1px solid blue; */
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-logo {
+    /* border: 1px solid blue; */
+    width: 100%;
+    gap: 5px;
+    margin: 50px 0px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-logo .logo-icon {
+    margin-bottom: 10px;
+    padding: 5px 10px;
+    border-radius: 50%;
+    border: 1px solid var(--color-text-primary);
+    background-color: var(--color-text-primary);
+}
+
+.logo-icon .icon {
+    color: var(--color-bg);
+    font-size: 30px;
+}
+
+.welcome-logo h2 {
+    font-weight: 800 !important;
+    font-size: 30px;
+}
+
+.welcome-container h3 {
+    font-size: 12px;
+    letter-spacing: 4px;
+}
+
+/* =======================
+WELCOME HEADER
+======================= */
+.welcome-header {
+    /* border: 1px solid red; */
+
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-header p {
+    font-style: italic;
+    font-weight: 550;
+    font-size: var(--text-base);
+    word-spacing: 3px;
+    letter-spacing: 1px;
+}
+
+.line {
+    border-radius: 8px;
+    border: 1px solid var(--color-text-primary);
+    width: 15%;
+}
+
+.welcome-text {
+    width: 80%;
+    margin: 15px 0;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-text p {
+    text-align: center;
+    font-size: var(--text-sm);
+}
+
+/* =======================
+WELCOME BOX
+======================= */
+.welcome-box {
+    width: 90%;
+    gap: 15px;
+    margin: 20px 0px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-box .box {
+    border-radius: 8px;
+    border: 1px solid var(--color-border);
+    padding: 10px;
+    width: 100%;
+}
+
+.box .box-header {
+    gap: 5px;
+    margin-bottom: 5px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.box-header .box-icon {
+    font-size: 15px;
+}
+
+.box-header p {
+    font-size: 12px;
+}
+
+.box p {
+    font-size: 12px;
+    text-align: center;
+}
+
+/* =======================
+WELCOME ACTION
+======================= */
+
+.welcome-action {
+    width: 100%;
+    margin: 20px 0;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+}
+
+.welcome-action .btn-explore {
+    width: 80%;
+    gap: 10px;
+    padding: 15px 10px;
+    font-weight: bold;
+    color: var(--color-bg);
+
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid var(--color-text-primary);
+    background-color: var(--color-text-primary);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.welcome-action .btn-contact {
+    width: 80%;
+    gap: 10px;
+    padding: 15px 10px;
+    font-weight: bold;
+    color: var(--color-text-primary);
+
+    cursor: pointer;
+    border-radius: 8px;
+    border: 1px solid var(--color-text-primary);
+    background-color: var(--color-bg);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+/* =======================
+WELCOME DIRECT MAPS
+======================= */
+
+.welcome-maps {
+    width: 100%;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-maps button {
+    gap: 10px;
+    padding: 10px;
+    cursor: pointer;
+    border: 1px solid var(--color-bg);
+    color: var(--color-text-primary);
+    background-color: var(--color-bg);
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-maps button:hover {
+    border-bottom: 1px solid var(--color-text-primary);
+}
+
+.welcome-maps p {
+    padding: 0;
+    font-size: 12px;
+    color: var(--color-text-primary);
+}
+
+.maps-icon {
+    font-size: 15px;
+}
+
+.welcome-footer {
+    /* border: 1px solid red; */
+    width: 100%;
+    margin: 0px;
+    margin-top: 25px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    color: #5e5e5e;
+}
+
+.welcome-footer .logo-box {
+    gap: 10px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.logo-box .footer-icon {
+    font-size: 25px;
+}
+
+.logo-box .line {
+    width: 10%;
+    border: 1px solid #5e5e5e;
+}
+
+.welcome-footer p {
+    margin-top: 5px;
+    font-size: 10px;
+    letter-spacing: 2px;
+}
