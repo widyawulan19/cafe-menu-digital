@@ -4,8 +4,16 @@ import { GiCoffeeBeans } from "react-icons/gi";
 import { LuClock3 } from "react-icons/lu";
 import { IoLocationOutline, IoChatbubbleOutline  } from "react-icons/io5";
 import { IoMdArrowForward, IoIosArrowForward } from "react-icons/io";
+import { useNavigate } from 'react-router-dom';
 
 function Welcome() {
+    const navigate = useNavigate();
+    
+    const handleExploreMenu = () => {
+        navigate('/menu');
+    };
+
+
   return (
     <div className='welcome-container'>
 
@@ -49,14 +57,18 @@ function Welcome() {
         </div>
 
         <div className="welcome-action">
-            <button className='btn-explore'>Explore Our Menu <IoMdArrowForward/></button>
+            <button className='btn-explore' onClick={handleExploreMenu}>
+                Explore Our Menu <IoMdArrowForward/>
+            </button>
             <button className='btn-contact'> <IoChatbubbleOutline/> Contact Via WhatsApp</button>
         </div>
 
         <div className="welcome-maps">
             <button>
                 <IoLocationOutline className='maps-icon'/>
-                <p>Get Directions To Rene Cafe</p>
+                <a href="https://www.google.com/maps/dir/?api=1&destination=RENE+CAFE" target="_blank" rel="noopener noreferrer">
+                    Get Directions To Rene Cafe
+                </a>
                 < IoIosArrowForward className='maps-icon'/>
             </button>
         </div>

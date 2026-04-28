@@ -1,0 +1,220 @@
+[
+    {
+        "id": 1,
+        "category": "Coffee",
+        "items": [
+            {
+                "name": "Espresso",
+                "ice": 0,
+                "hot": 14.5,
+                "basicPrice": 14.5
+            },
+            {
+                "name": "Americano",
+                "ice": 20,
+                "hot": 18.5,
+                "basicPrice": 18.5
+            },
+            {
+                "name": "Cappucino",
+                "ice": 23.5,
+                "hot": 21,
+                "basicPrice": 21
+            },
+            {
+                "name": "Latte",
+                "ice": 23.5,
+                "hot": 21,
+                "basicPrice": 21
+            },
+            {
+                "name": "Rene Coffee",
+                "ice": 25,
+                "hot": 0,
+                "basicPrice": 25
+            },
+            {
+                "name": "Caramel Latte",
+                "ice": 33,
+                "hot": 30.5,
+                "basicPrice": 30.5
+            },
+            {
+                "name": "Vanilla Latte",
+                "ice": 33,
+                "hot": 30.5,
+                "basicPrice": 30.5
+            },
+            {
+                "name": "Pandan Latte",
+                "ice": 33,
+                "hot": 30.5,
+                "basicPrice": 30.5
+            },
+            {
+                "name": "Black Coffee Rene",
+                "ice": 23,
+                "hot": 0,
+                "basicPrice": 23
+            },
+            {
+                "name": "Kopsus Kampung",
+                "ice": 25.5,
+                "hot": 0,
+                "basicPrice": 25.5
+            },
+            {
+                "name": "Kopsus Gula Aren",
+                "ice": 24,
+                "hot": 0,
+                "basicPrice": 24
+            },
+            {
+                "name": "Orange Espresso",
+                "ice": 32,
+                "hot": 0,
+                "basicPrice": 32
+            },
+            {
+                "name": "Coffee Mujito",
+                "ice": 30,
+                "hot": 0,
+                "basicPrice": 30
+            },
+            {
+                "name": "Affogato",
+                "ice": 25,
+                "hot": 0,
+                "basicPrice": 25
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "category": "Non Coffee",
+        "items": [
+            {
+                "name": "Tea",
+                "ice": 15,
+                "hot": 13,
+                "basicPrice": 13
+            },
+            {
+                "name": "Lemon Tea",
+                "ice": 19,
+                "hot": 17,
+                "basicPrice": 17
+            },
+            {
+                "name": "Lychee Tea",
+                "ice": 22,
+                "hot": 0,
+                "basicPrice": 22
+            },
+            {
+                "name": "Chocolate",
+                "ice": 25,
+                "hot": 23,
+                "basicPrice": 23
+            },
+            {
+                "name": "Strawberry Mojito",
+                "ice": 26.5,
+                "hot": 0,
+                "basicPrice": 26.5
+            },
+            {
+                "name": "Mojito Classic",
+                "ice": 21,
+                "hot": 0,
+                "basicPrice": 21
+            },
+            {
+                "name": "Strawberry Milkshake",
+                "ice": 33,
+                "hot": 0,
+                "basicPrice": 33
+            },
+            {
+                "name": "Vanilla Milkshake",
+                "ice": 28,
+                "hot": 0,
+                "basicPrice": 28
+            },
+            {
+                "name": "Latte Matcha",
+                "ice": 27.5,
+                "hot": 26,
+                "basicPrice": 26
+            },
+            {
+                "name": "Strawberry Matcha",
+                "ice": 32,
+                "hot": 0,
+                "basicPrice": 32
+            },
+            {
+                "name": "Strawberry Juice",
+                "ice": 25,
+                "hot": 0,
+                "basicPrice": 25
+            },
+            {
+                "name": "Orange Juice",
+                "ice": 31,
+                "hot": 29,
+                "basicPrice": 29
+            },
+            {
+                "name": "Orange Squash",
+                "ice": 27.5,
+                "hot": 0,
+                "basicPrice": 27.5
+            },
+            {
+                "name": "Lemon Squash",
+                "ice": 23,
+                "hot": null,
+                "basicPrice": 23
+            },
+            {
+                "name": "Coca-Cola",
+                "ice": 13.5,
+                "hot": null,
+                "basicPrice": 13.5
+            },
+            {
+                "name": "Sprite",
+                "ice": 13.5,
+                "hot": 0,
+                "basicPrice": 13.5
+            },
+            {
+                "name": "Aqua",
+                "ice": 10,
+                "hot": 0,
+                "basicPrice": 10
+            },
+            {
+                "name": "Milkshake Choco",
+                "ice": 35,
+                "hot": 0,
+                "basicPrice": 35
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "category": "Additional",
+        "items": [
+            {
+                "name": "Ice Cream",
+                "price": 15
+            },
+            {
+                "name": "Susu Kental Manis",
+                "price": 5
+            }
+        ]
+    }
+]

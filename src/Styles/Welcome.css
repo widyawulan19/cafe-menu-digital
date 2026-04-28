@@ -109,6 +109,7 @@ WELCOME BOX
     border: 1px solid var(--color-border);
     padding: 10px;
     width: 100%;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.1);
 }
 
 .box .box-header {
@@ -215,10 +216,11 @@ WELCOME DIRECT MAPS
     border-bottom: 1px solid var(--color-text-primary);
 }
 
-.welcome-maps p {
+.welcome-maps a {
     padding: 0;
     font-size: 12px;
     color: var(--color-text-primary);
+    text-decoration: none;
 }
 
 .maps-icon {

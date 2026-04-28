@@ -30,3 +30,35 @@
     font-size: 18px;
   }
 }
+
+https://www.google.com/maps/place/Rene+Cafe/data=!4m7!3m6!1s0x2e6993ee246aa691:0x31fb3bd7dd78af19!8m2!3d-6.3566556!4d106.9083157!16s%2Fg%2F11swyqmjpq!19sChIJkaZqJO6TaS4RGa943dc7-zE
+
+
+REDIRECT GMAPS
+<a
+  href="https://www.google.com/maps/place/Rene+Cafe/data=!4m7!3m6!1s0x2e6993ee246aa691:0x31fb3bd7dd78af19!8m2!3d-6.3566556!4d106.9083157"
+  target="_blank"
+  rel="noopener noreferrer"
+>
+  Lihat Lokasi
+</a>
+
+
+REDIRECT WA & CHAT OMTOMATIS
+const phone = "6281234567890"
+const message = "Halo saya mau pesan"
+
+const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`
+
+<button
+  onClick={() =>
+    window.open(
+      `https://wa.me/6281234567890?text=${encodeURIComponent(
+        "Halo, saya mau order menu di Rene Cafe"
+      )}`,
+      "_blank"
+    )
+  }
+>
+  Order via WhatsApp
+</button>
