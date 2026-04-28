@@ -73,11 +73,7 @@ body {
   line-height: 1.4;
   -webkit-font-smoothing: antialiased;
 
-  /* border: 1px solid blue; */
-  height: 100%;
-  width: 100%;
   margin: 0;
-  padding: 0;
 
   display: flex;
   align-items: center;
@@ -87,9 +83,11 @@ body {
 .App {
   width: 100%;
   max-width: 480px;
-  margin: 0;
   min-height: 100vh;
-  padding: 10px;
+  padding: 5px;
+  /* pindahin padding ke sini */
+  box-sizing: border-box;
+  /* penting */
   /* border: 1px solid red; */
 }
 
