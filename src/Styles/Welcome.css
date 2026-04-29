@@ -96,8 +96,8 @@ WELCOME HEADER
 WELCOME BOX
 ======================= */
 .welcome-box {
-    width: 90%;
-    gap: 15px;
+    width: 95%;
+    gap: 8px;
     margin: 20px 0px;
 
     display: flex;
