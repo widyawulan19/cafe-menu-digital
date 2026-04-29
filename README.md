@@ -1,70 +1,176 @@
-# Getting Started with Create React App
+# ☕ Rene Cafe — Digital Menu Web App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+A modern digital menu web app designed to deliver a seamless, app-like experience directly from the browser.
+Built with a mobile-first approach, this project allows users to explore menus, search items, and interact just like a native application.
 
-## Available Scripts
+---
 
-In the project directory, you can run:
+## Problem Statement
 
-### `npm start`
+Rene Cafe previously displayed its menu using static images stored in Google Drive, such as catalog photos and promotional posters.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+This approach created several usability issues:
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+📷 Menu presented as images instead of structured data
+🔍 Users had to zoom in and out to read menu items clearly
+⏱️ Slower interaction when searching for specific items
+📱 Poor mobile experience due to non-responsive content
+❌ No search or filtering capability
+🔗 Dependency on external platforms (Google Drive)
 
-### `npm test`
+As a result, the overall customer experience was less efficient and not aligned with modern digital standards.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+---
 
-### `npm run build`
+## ✨ Solution
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+This project transforms the static menu into an interactive digital experience:
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+📱 Mobile-first, app-like UI
+🔍 Real-time search functionality
+🧭 Category-based navigation (Drinks, Meals, etc.)
+⚡ Fast and responsive performance
+🎯 Clean and structured menu layout
+🔗 Ready for integrations (WhatsApp ordering & Maps location)
+---
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## ✨ Features
 
-### `npm run eject`
+* 📱 Mobile-first, app-like UI
+* 🔍 Real-time search menu items
+* 🧭 Category-based navigation (Drinks, Meals, etc.)
+* ⚡ Fast and responsive performance
+* 🎯 Clean and minimal design
+* 🔗 Integration-ready (WhatsApp & Google Maps)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+---
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 🖼️ Preview
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+> Simple, elegant interface inspired by modern cafe experiences.
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+* Welcome screen with branding
+* Menu selection page
+* Interactive menu list
 
-## Learn More
+---
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🛠️ Tech Stack
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+* ⚛️ React.js
+* 🎨 CSS (Custom styling)
+* 📦 Vite / Create React App (depending on setup)
 
-### Code Splitting
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+## 🚀 Getting Started
 
-### Analyzing the Bundle Size
+### 1. Clone the repository
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+```bash
+git clone https://github.com/your-username/rene-cafe-menu.git
+cd rene-cafe-menu
+```
 
-### Making a Progressive Web App
+---
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+### 2. Install dependencies
 
-### Advanced Configuration
+```bash
+npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+---
 
-### Deployment
+### 3. Run development server
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+```bash
+npm start
+```
 
-### `npm run build` fails to minify
+or (if using Vite):
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+```bash
+npm run dev
+```
+
+---
+
+### 4. Open in browser
+
+```bash
+http://localhost:3000
+```
+
+---
+
+## 📱 Testing on Mobile (Recommended)
+
+To test the app directly on your phone:
+
+1. Make sure your phone & laptop are on the same WiFi
+2. Find your local IP:
+
+   ```bash
+   ifconfig
+   ```
+3. Open in your phone browser:
+
+   ```bash
+   http://YOUR_IP:3000
+   ```
+
+---
+
+## 📂 Project Structure
+
+```
+src/
+│
+├── components/
+├── pages/
+├── data/
+├── styles/
+└── App.jsx
+```
+
+---
+
+## 💡 Future Improvements
+
+* 🛒 Add cart & ordering system
+* 🔐 Authentication (Admin & User)
+* 🧾 Order history
+* 🌐 Backend integration (API)
+* 📊 Dashboard for admin
+
+---
+
+## 🤝 Contributing
+
+Feel free to fork this project and improve it!
+Pull requests are welcome.
+
+---
+
+## 📄 License
+
+This project is open-source and available under the MIT License.
+
+---
+
+## ☕ About
+
+Built with passion to enhance digital dining experiences.
+Rene Cafe Digital Menu aims to bring simplicity, speed, and elegance into one platform.
+
+## About RENE CAFE
+1. location https://www.google.com/maps/place/Rene+Cafe/data=!4m7!3m6!1s0x2e6993ee246aa691:0x31fb3bd7dd78af19!8m2!3d-6.3566556!4d106.9083157!16s%2Fg%2F11swyqmjpq!19sChIJkaZqJO6TaS4RGa943dc7-zE
+
+## Deploy link 
+https://cafe-menu-digital-peach.vercel.app
+
+## Preview 
+![Welcome Screen](./public/assets/welcome.png)
+![Menu Screen](./public/assets/menu.png)
+
