@@ -168,7 +168,9 @@ WELCOME ACTION
     justify-content: center;
 
     box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+    -webkit-tap-highlight-color: transparent;
 }
+
 
 .welcome-action .btn-contact {
     width: 80%;
@@ -185,7 +187,13 @@ WELCOME ACTION
     display: flex;
     align-items: center;
     justify-content: center;
+    -webkit-tap-highlight-color: transparent;
+}
 
+.welcome-action .btn-contact:hover,
+.welcome-action .btn-contact:active {
+    background-color: var(--color-text-primary);
+    color: var(--color-bg);
 }
 
 /* =======================
@@ -211,6 +219,7 @@ WELCOME DIRECT MAPS
     display: flex;
     align-items: center;
     justify-content: center;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .welcome-maps button:hover {
@@ -222,6 +231,7 @@ WELCOME DIRECT MAPS
     font-size: 12px;
     color: var(--color-text-primary);
     text-decoration: none;
+    -webkit-tap-highlight-color: transparent;
 }
 
 .maps-icon {
