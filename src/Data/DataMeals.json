@@ -1,0 +1,148 @@
+[
+    {
+        "id": 1,
+        "category": "Main Course",
+        "items": [
+            {
+                "name": "Nasi Krawu",
+                "price": 40
+            },
+            {
+                "name": "Crispy Paru Pedas",
+                "price": 35
+            },
+            {
+                "name": "Cwie Mie",
+                "price": 35
+            },
+            {
+                "name": "Semur Lidah",
+                "price": 38
+            },
+            {
+                "name": "Lidah Penyet",
+                "price": 35
+            },
+            {
+                "name": "Nasi Bebek Keranjang",
+                "price": 45
+            },
+            {
+                "name": "Rujak Cingur",
+                "price": 33
+            },
+            {
+                "name": "Ayam Penyet",
+                "price": 28
+            },
+            {
+                "name": "Spaghetti Bolognese",
+                "price": 30
+            },
+            {
+                "name": "Chicken Katsu",
+                "price": 38
+            },
+            {
+                "name": "Dimsum",
+                "price": 25
+            },
+            {
+                "name": "Nasi Goreng Sosis",
+                "price": 30
+            },
+            {
+                "name": "Terong Penyet",
+                "price": 20
+            },
+            {
+                "name": "Tahu Telur",
+                "price": 25
+            },
+            {
+                "name": "Tahu Petis (6pcs)",
+                "price": 17
+            },
+            {
+                "name": "Terong Crispy",
+                "price": 10
+            },
+            {
+                "name": "Tahu Tempe Penyet",
+                "price": 10
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "category": "Appetizer",
+        "items": [
+            {
+                "name": "French Fries",
+                "price": 20
+            },
+            {
+                "name": "Risol Mayo (2pcs)",
+                "price": 16
+            },
+            {
+                "name": "Risol Rogut (2pcs)",
+                "price": 16
+            },
+            {
+                "name": "Gabin Rogut (2pcs)",
+                "price": 20
+            },
+            {
+                "name": "Tape Roll Ala Rene (6pcs)",
+                "price": 15
+            },
+            {
+                "name": "Pisang Bakar",
+                "price": 15
+            },
+            {
+                "name": "Pisang Goreng Pasir (2pcs)",
+                "price": 20
+            },
+            {
+                "name": "Sosis Bakar (2pcs)",
+                "price": 20
+            },
+            {
+                "name": "Fish Roll",
+                "price": 15
+            },
+            {
+                "name": "Cireng Salju",
+                "price": 15
+            },
+            {
+                "name": "Terong Crispy",
+                "price": 10
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "category": "Additional",
+        "items": [
+            {
+                "name": "Tempe Goreng",
+                "price": 2.5
+            },
+            {
+                "name": "Tahu Goreng",
+                "price": 2.5
+            },
+            {
+                "name": "Telur Ceplok",
+                "price": 5
+            },
+            {
+                "name": "Telur Dadar",
+                "price": 7
+            }
+        ]
+    }
+]

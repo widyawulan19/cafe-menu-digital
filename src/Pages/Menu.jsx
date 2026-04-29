@@ -29,20 +29,23 @@ function Menu() {
 
   return (
     <div className='menu-container'>
-        {/* <div className="back-nav">
-            <button className='back-btn' onClick={navigateToWelcome}>
-                <IoChevronBackOutline />
-                Back
-            </button>
-        </div> */}
 
-        <div className="menu-logo">
+        {/* 🔙 HEADER */}
+        <div className="menu-header">
+            <button onClick={navigateToWelcome}><IoChevronBackOutline/></button>
+            <div className="mid-header">
+                <h2>RENE CAFE</h2>
+                <h3>COFFEE & EATERY</h3>
+            </div>
+
             <div className="logo-icon">
                 <GiCoffeeBeans className='icon'/>
             </div>
-            <h2>RENE CAFE</h2>
-            <h3>COFFEE & EATERY</h3>
+        </div>
 
+        <div className="menu-logo">
+            <h2>Drinks Menu</h2>
+            
             <div className="menu-input">
                 <RiSearchLine className='search-icon'/>
                 <input 

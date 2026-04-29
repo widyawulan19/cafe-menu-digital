@@ -16,6 +16,10 @@ function ChoosePage() {
         navigate('/meals')
     }
 
+    const navigateToWelcome = () =>{
+        navigate('/')
+    }
+
   return (
     <div className='choose-container'>
         <h2>Find Your Perfect Taste</h2>
@@ -32,7 +36,7 @@ function ChoosePage() {
             </div>
         </div>
 
-        <button>
+        <button onClick={navigateToWelcome}>
             Back
         </button>
     </div>

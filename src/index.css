@@ -86,11 +86,16 @@ body {
   width: 100%;
   max-width: 480px;
   height: 100vh;
+  height: 100dvh;
   padding: 5px;
   /* pindahin padding ke sini */
   box-sizing: border-box;
   /* penting */
   /* border: 1px solid red; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
 }
 
 
