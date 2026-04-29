@@ -11,12 +11,12 @@ Rene Cafe previously displayed its menu using static images stored in Google Dri
 
 This approach created several usability issues:
 
-📷 Menu presented as images instead of structured data
-🔍 Users had to zoom in and out to read menu items clearly
-⏱️ Slower interaction when searching for specific items
-📱 Poor mobile experience due to non-responsive content
-❌ No search or filtering capability
-🔗 Dependency on external platforms (Google Drive)
+* Menu presented as images instead of structured data
+* Users had to zoom in and out to read menu items clearly
+* Slower interaction when searching for specific items
+* Poor mobile experience due to non-responsive content
+* No search or filtering capability
+* Dependency on external platforms (Google Drive)
 
 As a result, the overall customer experience was less efficient and not aligned with modern digital standards.
 
@@ -26,22 +26,22 @@ As a result, the overall customer experience was less efficient and not aligned 
 
 This project transforms the static menu into an interactive digital experience:
 
-📱 Mobile-first, app-like UI
-🔍 Real-time search functionality
-🧭 Category-based navigation (Drinks, Meals, etc.)
-⚡ Fast and responsive performance
-🎯 Clean and structured menu layout
-🔗 Ready for integrations (WhatsApp ordering & Maps location)
+* Mobile-first, app-like UI
+* Real-time search functionality
+* Category-based navigation (Drinks, Meals, etc.)
+* Fast and responsive performance
+* Clean and structured menu layout
+* Ready for integrations (WhatsApp ordering & Maps location)
 ---
 
 ## ✨ Features
 
-* 📱 Mobile-first, app-like UI
-* 🔍 Real-time search menu items
-* 🧭 Category-based navigation (Drinks, Meals, etc.)
-* ⚡ Fast and responsive performance
-* 🎯 Clean and minimal design
-* 🔗 Integration-ready (WhatsApp & Google Maps)
+*  Mobile-first, app-like UI
+*  Real-time search menu items
+*  Category-based navigation (Drinks, Meals, etc.)
+*  Fast and responsive performance
+*  Clean and minimal design
+*  Integration-ready (WhatsApp & Google Maps)
 
 ---
 
