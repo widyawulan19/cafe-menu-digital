@@ -84,7 +84,7 @@ body {
 
 .App {
   width: 100%;
-  max-width: 480px;
+  max-width: 360px;
   height: 100vh;
   height: 100dvh;
   padding: 5px;
