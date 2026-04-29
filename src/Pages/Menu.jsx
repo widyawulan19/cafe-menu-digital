@@ -51,11 +51,10 @@ function Menu() {
         </div>
 
         <div className="menu-category">
-            
-
             <div className="menu-items">
                 {filteredMenu?.map((item) => (
                     <div className="menu-item" key={item.name}>
+                        
                         <div className="item-name">
                             <h4>{item.name}</h4>
                             <h4>{item.basicPrice}K</h4>

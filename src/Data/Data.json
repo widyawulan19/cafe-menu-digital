@@ -209,11 +209,13 @@
         "items": [
             {
                 "name": "Ice Cream",
-                "price": 15
+                "price": 15,
+                "basicPrice": 15
             },
             {
                 "name": "Susu Kental Manis",
-                "price": 5
+                "price": 5,
+                "basicPrice": 5
             }
         ]
     }
