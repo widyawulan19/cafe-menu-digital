@@ -27,8 +27,8 @@ function MealsMenu() {
         item.name.toLocaleLowerCase().includes(search.toLocaleLowerCase())
     );
 
-    const navigateToWelcome = () =>{
-        navigate('/')
+    const navigateToChoose = () =>{
+        navigate('/choose')
     }
 
 
@@ -36,7 +36,7 @@ function MealsMenu() {
     <div className='menu-container'>
          {/* 🔙 HEADER */}
         <div className="menu-header">
-            <button onClick={navigateToWelcome}><IoChevronBackOutline/></button>
+            <button onClick={navigateToChoose}><IoChevronBackOutline/></button>
             <div className="mid-header">
                 <h2>RENE CAFE</h2>
                 <h3>COFFEE & EATERY</h3>

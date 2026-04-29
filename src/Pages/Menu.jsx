@@ -22,8 +22,8 @@ function Menu() {
     );
 
 
-    const navigateToWelcome = () =>{
-        navigate('/')
+    const navigateToChoose = () =>{
+        navigate('/choose')
     }
 
 
@@ -32,7 +32,7 @@ function Menu() {
 
         {/* 🔙 HEADER */}
         <div className="menu-header">
-            <button onClick={navigateToWelcome}><IoChevronBackOutline/></button>
+            <button onClick={navigateToChoose}><IoChevronBackOutline/></button>
             <div className="mid-header">
                 <h2>RENE CAFE</h2>
                 <h3>COFFEE & EATERY</h3>
