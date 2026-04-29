@@ -10,7 +10,7 @@ function Welcome() {
     const navigate = useNavigate();
     
     const handleExploreMenu = () => {
-        navigate('/menu');
+        navigate('/choose');
     };
 
 

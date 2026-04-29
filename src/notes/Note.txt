@@ -62,3 +62,24 @@ const url = `https://wa.me/${phone}?text=${encodeURIComponent(message)}`
 >
   Order via WhatsApp
 </button>
+
+=================================================================
+
+
+✨ Option 2 (lebih classy & premium dikit)
+
+Kalau kamu mau naik level dikit:
+
+Title
+
+Find Your Perfect Taste
+
+Subtitle
+
+A curated selection, made just for you.
+
+Description
+
+Whether you seek the warmth of coffee
+or the comfort of a hearty meal,
+your perfect choice starts here.
