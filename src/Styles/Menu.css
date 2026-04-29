@@ -187,3 +187,15 @@ MENU CATEGORY
     align-items: center;
     justify-content: space-between;
 }
+
+.menu-price .hot {
+    background-color: #fff2f0;
+    border: 1px solid #af2005;
+    color: #af2005;
+}
+
+.menu-price .ice {
+    background-color: #eef6ff;
+    border: 1px solid #007acc;
+    color: #007acc;
+}

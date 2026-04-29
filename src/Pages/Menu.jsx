@@ -5,10 +5,13 @@ import { RiSearchLine } from "react-icons/ri";
 import menuData from '../Data/Data.json'
 import { IoIosSnow } from "react-icons/io";
 import { PiThermometerHotFill } from "react-icons/pi";
+import { useNavigate } from 'react-router-dom';
+import { IoChevronBackOutline } from "react-icons/io5";
 
 function Menu() {
     const [selectedMenu, setSelectedMenu] = useState("Coffee");
     const [search, setSearch] = useState("");
+    const navigate = useNavigate();
 
     const currentMenu = menuData.find(
         (item) => item.category === selectedMenu
@@ -19,9 +22,19 @@ function Menu() {
     );
 
 
+    const navigateToWelcome = () =>{
+        navigate('/')
+    }
+
 
   return (
     <div className='menu-container'>
+        {/* <div className="back-nav">
+            <button className='back-btn' onClick={navigateToWelcome}>
+                <IoChevronBackOutline />
+                Back
+            </button>
+        </div> */}
 
         <div className="menu-logo">
             <div className="logo-icon">
@@ -61,8 +74,8 @@ function Menu() {
                         </div>
                         
                         <div className="menu-price">
-                            <p> <PiThermometerHotFill/> Hot {item.hot}K </p>
-                            <p> <IoIosSnow/> Iced {item.ice}K</p>
+                            <p className='hot'> <PiThermometerHotFill/> Hot {item.hot}K </p>
+                            <p className='ice'> <IoIosSnow/> Iced {item.ice}K</p>
                         </div>
                     </div>
                 ))}
